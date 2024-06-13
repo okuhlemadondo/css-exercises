@@ -1,0 +1,17 @@
+.one {
+  background-color: rgb(255, 168, 168);
+}
+
+#two {
+  font-size: 29px;
+  color: blue;
+}
+
+.three {
+  font-size: 25px;
+}
+
+#four {
+  background-color: rgb(137, 253, 137);
+  font-weight: bolder;
+}
