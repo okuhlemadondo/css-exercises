@@ -1,7 +1,6 @@
 * {
-  border: 1px solid red;
+  border: 0px solid red;
 }
-
 body {
   display: flex;
   flex-direction: column;
@@ -23,6 +22,26 @@ body {
   padding-left: 16px;
 }
 
+.container {
+  display: flex;
+  flex: 1;
+}
+
+ul {
+  margin: 7px;
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+  margin-block: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer {
   height: 72px;
   background: #eee;
@@ -36,6 +55,8 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: 24px;
 }
 
 .card {
