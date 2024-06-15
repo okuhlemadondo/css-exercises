@@ -39,6 +39,20 @@ button {
   padding: 8px 24px;
 }
 
+.left {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  border: 2px solid rgb(17, 0, 255);
+  flex: 1;
+}
+
+.right {
+  display: flex;
+}
+
 a {
   /* this removes the line under our links */
   text-decoration: none;
